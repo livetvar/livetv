@@ -1,0 +1,2301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+ <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LIVETV</title>
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://television-libre.net" />
+<meta name="referrer" content="always">
+<meta name="description" content="Television Libre sitio para ver canales de TV online en vivo y en directo gratis por internet. Canales de television de manera Gratuita y Online Canales libres por TV Libre. - Televisión Libre .online ">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Television Libre TV - Ver canales de TV online en vivo y en directo gratis" />
+<meta property="og:description" content="En Television Libre TV podes ver Canales de TV de forma Gratuita y Online " />
+<meta property="og:url" content="https://television-libre.net" />
+<meta property="og:site_name" content="Television Libre TV" />
+<meta property="og:image" content="https://television-libre.net/img/logo.png">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content=" Ver Canales de TV gratis online en vivo y en directo mira todos los canales de forma online por internet." />
+<meta name="twitter:title" content="Television Libre TV - Canales de Television online en vivo y en directo" />
+<meta name="twitter:image" content="https://television-libre.net/img/logo.png" />
+<meta property="og:locale" content="es_AR">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q1F80XNDKY"></script>
+        <script src="https://nebunexa.com/adcash_lib.js"></script>
+        <script type="text/javascript">
+            aclib.runPop({
+                zoneId: '7425742',
+            });
+        </script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q1F80XNDKY');
+</script>
+<link rel="stylesheet" href="/css/app.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<style>
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.md-link {
+  margin-right: 8px;
+}
+ p.des {
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 23px;
+  color: #fff;
+  
+ }
+ #buscar::placeholder {
+    color: #fff; 
+}
+ .d-none {
+    display: none !important; 
+}
+.main__filter-search,.main__filter-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+
+}
+
+.main__filter-search {
+    margin-top: 10px
+}
+
+.main__filter-search input {
+    width: 100%;
+    height: 40px;
+    background-color: #141d26;
+    color: #fff ;
+    font-size: 14px;
+    border-radius: 12px;
+    border: none;
+    padding: 0 60px 0 20px;
+    font-family: Inter,sans-serif;
+
+}
+ input:focus {
+
+   --bs-card-border-width: 0.0625rem;
+ --bs-card-border-color: hsl(0deg 0% 100% / 30%);
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.main__filter-search input:focus {
+    border-color: #141d26
+}
+
+.main__filter-search button {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.main__filter-search button svg {
+    width: 20px;
+    height: auto;
+    fill: #bdbdbd;
+    transition: .5s ease
+}
+
+.main__filter-search button:hover svg {
+    fill: #6164ff
+}
+.inf {
+    background-color: #eef8fc;
+    border-radius: 5px;
+
+    color: #1d2745;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 10px;
+    position: absolute;
+    margin: 5px;
+  
+}
+.object-contain {
+
+ object-fit: contain;
+ margin-top: 1.6rem;
+}
+
+ /* Para navegadores WebKit (Safari y Chrome) */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #141d26; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eef8fc; 
+}
+
+
+</style> 
+<style>
+
+
+
+.wrapper {
+    width: 100%;
+    display: inline-flex;
+}
+.carousel{
+max-width: 1200px;
+margin: auto;
+padding: 0 30px;
+}
+
+
+
+
+  .owl-dots{
+text-align: center;
+margin-top: 25px;
+}
+.owl-dot{
+height: 15px;
+width: 30px;
+margin: 0 5px;
+outline: none;
+border-radius: 14px;
+border: 2px solid #35afe3!important;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+background: #35afe3!important;
+}
+
+
+
+  
+ </style><style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0d141e;
+    color: #f1f1f1;
+}
+
+.channels-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #141d26;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    width: 150px;
+    height: 100%;
+    padding: 0;
+    background-color: #07112169;
+    flex-shrink: 0;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+.card-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.channel-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #cccccc;
+    max-height: 7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+.view-button {
+    background-color: #0097e6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.view-button:hover {
+    background-color: #007bb5;
+}
+
+.bbton {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+ </style>
+</head>
+
+<body class="flex flex-col h-screen justify-between dark:bg-slate-800 dark:text-slate-300 font-sans">
+<header>
+<nav class="bg-slate-100 shadow dark:bg-slate-700">
+<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+<div class="relative flex h-16 items-center justify-between">
+<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+<div class="flex flex-shrink-0 items-center">
+<a class="flex flex-shrink-0 items-center text-2xl logo" href="/">
+<img width="70px" height="70px" class="block h-8 w-auto mr-2" src="https://television-libre.net/img/logo.png" alt="Logo de Television Libre">
+LIVETV
+</a>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<main class="container mx-auto px-4  max-w-7xl mb-auto" style="padding:0!important">
+<div>
+<div class="md:col-span-2" bis_skin_checked="1">
+ <br>
+
+ <h1 class="text-3xl my-3 text-center">CANALES EN VIVO</h1>
+<div class="bbton">    
+</div>
+<div style="padding-left: 1rem; padding-right: 1rem;" class="main__filter">
+    <form action="#" class="main__filter-search search-form">
+        <input autocomplete="off" id="buscar" type="text" placeholder="Buscar canal o etiqueta..." class="form-control" data-search="true">
+        <button type="button" aria-label="Buscar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"></path>
+            </svg>
+        </button>
+    </form>
+</div>
+
+<div class="channels-container">
+    
+    
+    <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/telefe.png" title="Telefe" alt="Telefe en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Telefe</p>
+            <p class="description">Telefe es una cadena de televisión abierta argentina perteneciente al conglomerado Paramount Global, que transmite desde la localidad de Martínez, provincia de Buenos Aires. Forma parte de los siete canales de aire nacionales del país. Es el canal de mayor audiencia en Argentina y su principal competidor es Canal 13.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWxfNV9Sb3Nhcmlv" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/eltrece.webp" title="El Trece (13)" alt="El Trece en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">El Trece</p>
+            <p class="description">El Canal 13 de Buenos Aires (estilizado comercialmente como eltrece) es una estación de televisión abierta argentina que transmite desde la Ciudad Autónoma de Buenos Aires. Fue fundado el 1 de octubre de 1960 operando con la licencia LS 85 TV y pertenece a la empresa Arte Radiotelevisivo Argentino (Artear), propiedad del Grupo Clarín, desde el 22 de diciembre de 1989. Es denominado popularmente «el canal del solcito», debido a su logotipo. Es el segundo canal de mayor audiencia en Argentina, solo por detrás de su principal competidor Telefe.</p>
+            <a href="https://television-libre.net/html/fl/?get=QXJ0ZWFySEQ" class="view-button">Ver canal</a>
+        </div>
+    </div>   
+    
+    
+        <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/nueve.webp" title="El Nueve (9)" alt="El Nueve en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">El Nueve</p>
+            <p class="description">El Canal 9 de Buenos Aires es una estación de televisión abierta argentino que transmite desde la Ciudad Autónoma de Buenos Aires. La emisora fue inaugurada el 9 de junio de 1960. Desde 2007 hasta 2020 fue propiedad del conglomerado de medios Albavisión mediante su subsidiaria argentina Telearte</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWw5&lang=1" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+    
+            <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/tvpublica.webp" title="TV Pública (TVP)" alt="TV Pública en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">TV Pública</p>
+            <p class="description">El Canal 7 de Buenos Aires, más conocido como Televisión Pública y estilizado como TVP, es una estación de televisión abierta argentina que transmite desde la ciudad de Buenos Aires y que actúa como la emisora cabecera de la cadena de televisión pública de ese país.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWw3" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+    
+            <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/america.webp" title="América TV" alt="América TV en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">América TV</p>
+            <p class="description">América Televisión, es un canal de televisión abierta argentino con licencia en la ciudad de La Plata, Argentina, aunque su señal es producida en la ciudad de Buenos Aires. Es también conocido por ser uno de los cinco canales abiertos que emiten desde el Área metropolitana de Buenos Aires.</p>
+            <a href="https://television-libre.net/html/fl/?get=QW1lcmljYVRW" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+
+            <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/cronica.png" title="Crónica TV" alt="Crónica TV en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Crónica TV</p>
+            <p class="description">Crónica Televisión es un canal de televisión abierta argentino orientado a las noticias, con su programación dedicada íntegramente a noticieros permanentes en vivo. Fundado por el dueño del diario de nombre homónimo, Héctor Ricardo García. Es propiedad del Grupo Olmos.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q3JvbmljYVRW" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+
+
+            <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/c5n.webp" title="C5N" alt="C5N  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">C5N</p>
+            <p class="description">Canal 5 Noticias, es un canal de televisión abierta de noticias argentino. Según IBOPE, es al año 2022 uno de los canales de noticias más vistos de Argentina, detrás de TN. Fue fundado en 2007 por el empresario y periodista Daniel Hadad, y era operado a través de su conglomerado empresarial Grupo Infobae.</p>
+            <a href="https://television-libre.net/html/fl/?get=QzVO" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+    
+               <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/tn.png" title="TN" alt="TN en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">TN </p>
+            <p class="description">Todo Noticias es un canal de televisión por suscripción argentino, perteneciente al Grupo Clarín y operado por su subsidiaria Arte Radiotelevisivo Argentino.</p>
+            <a href="https://television-libre.net/html/fl/?get=VG9kb05vdGljaWFz" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+       
+               <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/a24.webp" title="A24" alt="A24 en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">A24 </p>
+            <p class="description">A24 (o América 24) es un canal de televisión abierta de noticias argentino. Es propiedad de América Multimedios, Grupo América. El canal al igual que el multimedios y sus propietarios fueron denunciados repetidas veces por estafa y lavado de dinero, y por despidos injustificados. El 7 de junio de 2009, fue entrevistado Francisco De Narváez, candidato a diputado nacional por Unión PRO y uno de los accionistas del canal. La entrevista incluyó menciones a las acusaciones por enriquecimiento ilícito que formuló el diario Página/12 sobre el candidato, repentinamente se cortó la transmisión y comenzó otro programa, posteriormente se determinó el levantamiento del ciclo en noviembre de 2009, otro programa, Lado salvaje, conducido por Reynaldo Sietecase y Maximiliano Montenegro en A24, también fue levantado.</p>
+            <a href="https://television-libre.net/html/fl/?get=QW1lcmljYTI0" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+
+
+   <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/canal26.webp" title="Canal 26" alt="Canal 26 en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Canal 26 </p>
+            <p class="description">Canal 26 Noticias es un canal de televisión abierta argentino, que basa su programación en noticieros y programas de actualidad. Fue lanzado el 1 de abril de 1996, es propiedad de Telecentro.</p>
+            <a href="https://television-libre.net/html/fl/?get=MjZfVFZfSEQ" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+      <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/ln.webp" title="La Nacion (LN+)" alt="La Nacion en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">La Nación</p>
+            <p class="description">La Nación + (pronunciado «La Nación Más», conocido por su acrónimo LN+) es un canal de televisión abierta argentino enfocado en la programación noticiosa, propiedad del diario La Nación. Transmite desde Vicente López, Provincia de Buenos Aires. El canal inició sus transmisiones el 7 de noviembre de 2016.</p>
+            <a href="https://television-libre.net/html/fl/?get=TGFfTmFjaW9u" class="view-button">Ver canal</a>
+        </div>
+    </div> 
+
+
+      <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/dtv.webp" title="Diputados TV (DTV)" alt="Diputados TV en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Diputados TV</p>
+            <p class="description">Diputados TV es un canal de televisión por suscripción argentino de programación parlamentarios e institucionales, que emite las sesiones de la Cámara de Diputados de la Nación Argentina en vivo o diferido</p>
+            <a href="https://television-libre.net/html/fl/?get=RGlwdXRhZG9zX1RW" class="view-button">Ver canal</a>
+        </div>
+    </div> 
+    
+    
+          <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/volver.webp" title="Volver " alt="Volver  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Volver </p>
+            <p class="description">Volver es un canal de televisión por suscripción argentino dedicado a la transmisión de archivos de cine y televisión en Argentina.</p>
+            <a href="https://television-libre.net/html/fl/?get=Vm9sdmVy" class="view-button">Ver canal</a>
+        </div>
+    </div> 
+    
+    
+              <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/ciudad.webp" title="Ciudad Magazine " alt="Ciudad Magazine  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Ciudad Magazine </p>
+            <p class="description">Ciudad Magazine es un canal de televisión por cable argentino propiedad y operado por el Grupo Clarín de Buenos Aires. Se puede acceder a ella en todo el país a través de televisión por suscripción.</p>
+            <a href="https://television-libre.net/html/fl/?get=TWFnYXppbmU=" class="view-button">Ver canal</a>
+        </div>
+    </div>
+
+             <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/bravotv.png" title="Bravo TV " alt="Bravo TV  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Bravo TV</p>
+            <p class="description">Bravo TV es un canal de televisión abierta argentino. Inició sus transmisiones el 14 de marzo de 2022. Es propiedad de Editorial Perfil en sociedad con Grupo Olmos.</p>
+            <a href="https://television-libre.net/html/fl/?get=QnJhdm9UVg==" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+    
+                 <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/nettv.webp" title="Net TV " alt="Net TV   en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Net TV </p>
+            <p class="description">Net TV es un canal de televisión abierta argentino. Inició sus transmisiones el 30 de septiembre de 2018 (cómo prueba) y el 1 de octubre de 2018 (de manera oficial) y es propiedad de Editorial Perfil en sociedad con Kuarzo Entertainment Argentina, esta última, encargada de proveer contenidos.</p>
+            <a href="https://nebunexa.co/canal/?id=NETTV" class="view-button">Ver canal</a>
+        </div>
+    </div>
+
+
+              <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/ip.webp" title="Ip Noticias" alt="Ip Noticias   en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Ip Noticias</p>
+            <p class="description">Información Periodística es un canal de televisión abierta argentino enfocado a la programación informativa. Es propiedad de Grupo Octubre y operada por Telearte.</p>
+            <a href="https://television-libre.net/html/fl/?get=SW52ZXN0aWdhY2lvbl9QZXJpb2Rpc3RpY2E=" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+              <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/encuentro.webp" title="Encuentro " alt="Encuentro  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Encuentro </p>
+            <p class="description">Encuentro es un canal de televisión abierta argentino de índole cultural, lanzado el 5 de marzo de 2007. El canal se caracteriza tanto por transmitir conocimiento de variados campos educativos, científicos y culturales.</p>
+            <a href="https://television-libre.net/html/fl/?get=RW5jdWVudHJv" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+                 <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/canaldelaciudad.webp" title="Canal de la Ciudad " alt="Canal de la Ciudad  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Canal de la Ciudad </p>
+            <p class="description">El Canal de la Ciudad es un canal de televisión por cable argentino que emite para la Ciudad Autónoma de Buenos Aires. Se encuentra financiado por el gobierno de esa ciudad bajo la Secretaría de Medios.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWxfZGVfbGFfY2l1ZGFk" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+               <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/televida.webp" title="Televida (Canal 9 Mendoza)" alt="Televida  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Televida  </p>
+            <p class="description">El Canal 9 Televida (Mendoza) es un canal de televisión abierta argentino afiliado a Telefe que transmite desde la ciudad de Mendoza. El canal se llega a ver en gran parte de la Provincia de Mendoza a través de repetidoras. Es operado mayoritariamente por la familia Alonso.</p>
+            <a href="https://nebunexa.co/canal/?id=TELEVIDAHLS" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+                  <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/metro.png" title="Metro Nos Vemos" alt="Metro Nos Vemos  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Metro Nos Vemos  </p>
+            <p class="description">Metro es un canal de televisión por suscripción argentino, propiedad del Grupo Clarín. Su programación consiste en producciones independientes de temática generalista, que abarcan diversos temas: salud, economía, política, deportes, viajes, tecnología, agro, etc. El canal posee diversos programas de televenta y así como repeticiones de sus canales hermanos.</p>
+            <a href="https://television-libre.net/html/fl/?get=TWV0cm8" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+ 
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/docor.png" title="Canal 12 (doce Córdoba) " alt="Canal 12 de Córdoba en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Canal 12 de Córdoba</p>
+            <p class="description">El Canal 12 de Córdoba, más conocido como El Doce, es una estación de televisión abierta argentina afiliada a El Trece que transmite desde la ciudad de Córdoba. La emisora se llega a ver en gran parte de la Provincia de Córdoba y en parte de la Provincia de Catamarca a través de estaciones repetidoras.</p>
+            <a href="https://television-libre.net/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RMkZ1WVd4Zk1USmZRMEpC" class="view-button">Ver canal</a>
+        </div>
+    </div>     
+ 
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/arsat.png" title="Argentinísima Satelital " alt="Argentinísima Satelital  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Argentinísima  </p>
+            <p class="description">Argentinísima Satelital es un canal de televisión por suscripción de Argentina, fundado en 1995, que se dedica a difundir contenidos culturales, folklóricos y tradicionales del país. Su programación se enfoca en mostrar la riqueza cultural de las distintas regiones de Argentina, con un fuerte énfasis en la música folklórica, danzas tradicionales, paisajes, artesanías, costumbres y la vida cotidiana de los pueblos.</p>
+            <a href="https://television-libre.net/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1RWEpuWlc1MGFXNXBjMmx0WVE=" class="view-button">Ver canal</a>
+        </div>
+    </div>    
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/rural.webp" title="Rural " alt="Rural  en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Rural </p>
+            <p class="description">Canal Rural es un canal de televisión por suscripción latinoamericano de origen argentino dedicado a la producción del campo, agroindustria y alimentos.</p>
+            <a href="https://nebunexa.co/canal/?id=RURAL" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+                     <div class="card">
+        <div class="image-container">
+            <span class="inf">Uruguay</span>
+            <img src="https://television-libre.net/img/canal4uy.webp" title="Canal 4 Uruguay" alt="Canal 4 Uruguay   en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Canal 4 </p>
+            <p class="description">Canal 4 es un canal de televisión abierta uruguayo que transmite desde la localidad de La Aguada en Montevideo. Su programación es generalista, para todos los públicos. Inició sus transmisiones el 23 de abril de 1961, siendo el segundo canal más antiguo del país, y el octavo en toda Latinoamérica.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWw0X1VSVQ==" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+    
+                 <div class="card">
+        <div class="image-container">
+            <span class="inf">Uruguay</span>
+            <img src="https://television-libre.net/img/teledoce.webp" title="Teledoce  Uruguay" alt="Teledoce  Uruguay   en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Teledoce </p>
+            <p class="description">Teledoce es un canal de televisión abierta de Uruguay. Su programación es generalista, con programas informativos, culturales, deportivos, humorísticos, de entretenimiento y ficciones.</p>
+            <a href="https://television-libre.net/html/fl/?get=Q2FuYWwxMlVSVQ==" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+    <div class="card">
+    <div class="image-container">
+        <span class="inf">Uruguay</span>
+        <img src="https://television-libre.net/img/canal10.webp" title="Canal 10 Uruguay" alt="Canal 10 Uruguay en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Canal 10</p>
+        <p class="description">Canal 10 es un canal de televisión abierta uruguaya de programación generalista que transmite desde la localidad de Palermo, Montevideo. Inició sus transmisiones el 7 de diciembre de 1956, siendo el primer canal del país en ser lanzado y el cuarto en toda Latinoamérica.</p>
+        <a href="https://television-libre.net/html/fl/?get=Q2FuYWwxMF9VUlU=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Uruguay</span>
+        <img src="https://television-libre.net/img/tvc.png" title="TV Ciudad Uruguay" alt="TV Ciudad Uruguay en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TV Ciudad</p>
+        <p class="description">TV Ciudad es un canal de televisión abierta uruguayo, propiedad del Gobierno Departamental de Montevideo. Es operado por el Servicio de Información y Comunicación del Gobierno de Montevideo.</p>
+        <a href="https://television-libre.net/html/fl/?get=VGV2ZV9DaXVkYWQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Colombia</span>
+        <img src="https://television-libre.net/img/caracoltv.webp" title="Caracol TV" alt="Caracol TV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Caracol TV</p>
+        <p class="description">Caracol Televisión es un canal de televisión abierta colombiano, la cual tiene su origen institucional en la tradicional empresa radiodifusora de Caracol Radio, siglas de Cadena Radial Colombiana.</p>
+        <a href="https://television-libre.net/html/hls.html?get=Ly9tZHN0cm0uY29tL2xpdmUtc3RyZWFtLXBsYXlsaXN0LzYzMjM5MTczNGJlOTJhNzkxZTI3NTBlNi5tM3U4" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Colombia</span>
+        <img src="https://television-libre.net/img/rcn.webp" title="RCN" alt="RCN en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">RCN</p>
+        <p class="description">RCN es un canal de televisión abierta colombiano, perteneciente a la Organización Ardila Lülle, sigla de Radio Cadena Nacional. Fue fundada como empresa productora de contenido televisivo el 23 de marzo de 1967 e inició sus emisiones como canal independiente el 10 de julio de 1998.</p>
+        <a href="https://embed.sdfgnksbounce.com/embed2/rcn.html" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/latele.webp" title="La Tele" alt="La Tele en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">La Tele</p>
+        <p class="description">LaTele es un canal de televisión abierta paraguayo aliado a Telemundo que emite desde Asunción. Pertenece al Grupo Multimedios Vierci. Es miembro de la Organización de Televisión Iberoamericana (OTI) y miembro asociado de la Unión Europea de Radiodifusión (UER), así como también está afiliado a la Cámara de Teledifusoras del Paraguay (Catelpar) junto con otros canales de televisión abierta tanto a nivel nacional como a nivel regional.</p>
+        <a href="https://television-libre.net/html/fl/?get=TEFfVEVMRV9DNA==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/snt.webp" title="SNT" alt="SNT en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">SNT</p>
+        <p class="description">El Sistema Nacional de Televisión o SNT es un canal de televisión abierta paraguayo lanzado al aire el 29 de septiembre de 1965 por Carlos Morinigo Delgado, bajo el nombre de Canal 9 TV Cerro Corá. Con indicativo de señal actual en ZPV 900 TV, es propiedad de Albavisión, operada por el Grupo SNT.</p>
+        <a href="https://television-libre.net/html/fl/?get=U05UX0M0" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/telefuturo.webp" title="Telefuturo" alt="Telefuturo en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Telefuturo</p>
+        <p class="description">Telefuturo es un canal de televisión abierta paraguayo de carácter generalista lanzado el 12 de noviembre de 1997.</p>
+        <a href="https://television-libre.net/html/fl/?get=VEVMRUZVVFVST19DNA==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/paravision.webp" title="Paravisión" alt="Paravisión">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Paravisión</p>
+        <p class="description">Paravision es un canal de televisión paraguayo. Es propiedad de Albavisión. Es operado por el canal paraguayo SNT.</p>
+        <a href="https://television-libre.net/html/fl/?get=UEFSQVZJU0lPTl9DNA==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/trecepy.webp" title="El Trece" alt="El Trece">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">El Trece</p>
+        <p class="description">Trece (Paraguay) es un canal de televisión abierta paraguayo fundado en 1981, operando bajo la licencia de ZPV 913 TV. Es el segundo canal más antiguo del país y propiedad del Grupo JBB.</p>
+        <a href="https://television-libre.net/html/fl/?get=UlBDX0M0" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/genpy.png" title="GEN" alt="GEN en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">GEN</p>
+        <p class="description">GEN es un canal de televisión por suscripción paraguayo, enfocado en la programación informativa, deportiva y de entretenimiento. Comenzó sus transmisiones el 7 de junio del 2017 y forma parte del Grupo Nación Media. Transmite desde Asunción y tiene alcance nacional.</p>
+        <a href="https://television-libre.net/html/fl/?get=R0VOX1RW" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/c9n.png" title="C9N" alt="C9N en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">C9N</p>
+        <p class="description">C9N es un canal de televisión abierta paraguayo enfocado en programación noticiera. Inició sus transmisiones como repetidora del canal SNT y posteriormente como canal local. Es propiedad del canal SNT.</p>
+        <a href="https://television-libre.net/html/fl/?get=QzlOX0M0" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card" style="display:none;">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/surtv.png" title="SurTV" alt="SurTV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">SurTV</p>
+        <p class="description">Sur-Televisora Itapúa o Sur Televisión es un canal de televisión abierta paraguayo con sede en la ciudad de Encarnación, Itapúa. La estación televisiva está centrada en programación de carácter generalista</p>
+        <a href="/en-vivo/surtv/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/pytv.png" title="Paraguay TV" alt="Paraguay TV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Paraguay TV</p>
+        <p class="description">Paraguay TV es un canal de televisión abierta pública paraguayo. Es el primer canal en trasmitirse a través de TDT en el país y, a la vez, el primer canal cuyo propietario es el Gobierno de Paraguay.</p>
+        <a href="https://television-libre.net/html/fl/?get=UGFyYWd1YXlfVFY=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net/img/npy.png" title="Noticias Paraguay" alt="Noticias Paraguay en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Noticias Paraguay</p>
+        <p class="description">Noticias Paraguay o NPY es un canal de televisión abierta paraguayo dedicado exclusivamente a las noticias. Fundado el 17 de abril de 2017, es propiedad de Antonio J. Vierci del Grupo Vierci. Es el primer canal de noticias en transmitir la 24 horas al día.</p>
+        <a href="https://television-libre.net/html/fl/?get=Tk9USUNJQVNfUFlfQzQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net//img/abc.png" title="ABC TV Paraguay" alt="ABC TV Paraguay en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">ABC TV</p>
+        <p class="description">ABC TV o simplemente ABC, es un canal de televisión paraguayo cuya programación se basa en noticias. Fue lanzado el 7 de agosto de 2017 y es propiedad del Grupo ABC Comunicaciones, también propietario del diario ABC Color.</p>
+        <a href="https://television-libre.net/eventos/sin-chat/?r=L2h0bWwvaGxzLmh0bWw/Z2V0PWFIUjBjSE02THk5aFltTXRZMjlzYjNJdVkyUnVMbloxYzNSeVpXRnRjeTVqYjIwdmJHbDJaUzlrT0Rkak1tSTNZaTA1WldObUxUUmxObVV0WWpZellpMWlNekkzTnpKaVpEYzROVEV2YkdsMlpTNXBjMjFzTDJRNE4yTXlZamRpTFRsbFkyWXROR1UyWlMxaU5qTmlMV0l6TWpjM01tSmtOemcxTVM1dE0zVTQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Paraguay</span>
+        <img src="https://television-libre.net//img/venus.png" title="Venus Media Paraguay" alt="Venus Paraguay en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Venus</p>
+        <p class="description">Venus Media es un canal que ofrece entretenimiento, noticias y música en Paraguay, transmitiendo programas en vivo.</p>
+        <a href="https://television-libre.net/eventos/sin-chat/?r=aHR0cHM6Ly9kZXNkZXBhcmFndWF5LmNvbS9leHRlcm5hbC8/dmVudXNtZWRpYQ==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Peru</span>
+        <img src="https://television-libre.net//img/amtv.png" title="América TV Peru" alt="América TV Peru en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">América TV</p>
+        <p class="description">América Televisión es una cadena de televisión abierta peruana, lanzado en 1958. Pertenece al Grupo Plural TV, empresa conjunta formada por los diarios El Comercio y La República Desde 1996, es la cadena de televisión de mayor audiencia a nivel nacional.</p>
+        <a href="https://embed.sdfgnksbounce.com/embed2/americatv.html" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Peru</span>
+        <img src="https://television-libre.net//img/atv.png" title="ATV Peru" alt="ATV Peru en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">ATV</p>
+        <p class="description">ATV es un noticiero peruano que se emite por la cadena de televisión ATV. Fue creado en 1992 en reemplazo de El Noticiero del Nueve. Se emite de lunes a viernes en tres ediciones. A la vez es un apéndice del sistema informativo de ATV+.</p>
+        <a href="https://television-libre.net/html/hls.html?get=aHR0cHM6Ly9saXZlLWV2ZzI1LnR2MzYwLmJpdGVsLmNvbS5wZS9iaXRlbC9hdHYvcGxheWxpc3QubTN1OA==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Peru</span>
+        <img src="https://television-libre.net//img/latinape.webp" title="Latina Peru" alt="Latina Peru en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Latina Peru</p>
+        <p class="description">Latina Televisión es un canal de televisión abierta peruano que emite desde 1983. Es el segundo canal más visto del país y el tercero en comenzar sus emisiones. Su sede de transmisiones se ubica en la Av. San Felipe, en el Distrito de Jesús María, Lima. Su propietario es el Grupo Enfoca.</p>
+        <a href="https://nebunexa.co/canal/?id=LATINAPE" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Chile</span>
+        <img src="https://television-libre.net//img/tvnchiled.png" title="TV Chile" alt="TV Chile en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TVN Chile</p>
+        <p class="description">Televisión Nacional de Chile es la cadena de televisión pública de Chile. Fue creada el 31 de enero de 1969, bajo la presidencia de Eduardo Frei Montalva e inició sus transmisiones regulares en Santiago el 18 de septiembre del mismo año, tras una serie de pruebas en Arica, Antofagasta, Talca y Punta Arenas.</p>
+        <a href="https://television-libre.net/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WSFpmUTJocGJHVT0=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">México</span>
+        <img src="https://television-libre.net//img/canal5.webp" title="Canal 5 MX" alt="Canal 5 MX en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Canal 5</p>
+        <p class="description">Canal 5 (estilizado como 5*) es una cadena de televisión abierta mexicana con cobertura nacional, con sede en la Ciudad de México</p>
+        <a href="https://embed.sdfgnksbounce.com/embed2/canal5.html" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/discovery.webp" title="Discovery Channel" alt="Discovery Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery Channel</p>
+        <p class="description">Discovery Channel es un canal de televisión por suscripción estadounidense propiedad de Discovery Inc. Inicialmente, proporcionó programación de televisión documental centrada principalmente en la ciencia, la tecnología y la historia, pero en la década de 2010 cambió su formato y comenzó a incluir programas de entretenimiento como realities y pseudociencia</p>
+        <a href="https://television-libre.net/html/fl/?get=RGlzY292ZXJ5SEQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/disworld.webp" title="Discovery World" alt="Discovery World en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery World</p>
+        <p class="description">Discovery World es un canal de televisión por suscripción latinoamericano de origen estadounidense, lanzado el 16 de marzo de 2015 en reemplazo de la señal original de TLC HD. Ofrece series, programas y documentales, incluyendo en su mayoría viajes y culinaria que en su mayoría fue movida a Food Network.</p>
+        <a href="https://television-libre.net/html/fl/?get=RGlzY292ZXJ5X1dvcmxkX0hE" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/distheater.webp" title="Discovery Theater" alt="Discovery Theater en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery Theater</p>
+        <p class="description">Discovery Theater es un canal de televisión por suscripción latinoamericano en alta definición de origen estadounidense, propiedad de Discovery Communications. Su programación se basa en la ciencia y la cultura.</p>
+        <a href="https://television-libre.net/html/fl/?get=VGhlYXRlcl9IRA==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/disscience.webp" title="Discovery Science" alt="Discovery Science en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery Science</p>
+        <p class="description">Discovery Science es un canal de televisión por suscripción producido por Warner Bros. Discovery. En Latinoamérica, Sureste Asiático, Europa y Australia se conoce como Discovery Science.</p>
+        <a href="https://television-libre.net/html/fl/?get=RGlzY292ZXJ5X1NjaWVuY2U=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/tlc.webp" title="Discovery TLC" alt="Discovery TLC en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery TLC</p>
+        <p class="description">TLC es un canal de televisión por suscripción latinoamericano de origen estadounidense, con programación centrada en estilos de vida. Sus oficinas se ubican en Silver Spring, Maryland en Estados Unidos.</p>
+        <a href="https://television-libre.net/html/fl/?get=VExD" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/turbo.webp" title="Discovery Turbo" alt="Discovery Turbo en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery Turbo</p>
+        <p class="description">Discovery Turbo es un canal de televisión por suscripción de origen estadounidense, propiedad de Warner Bros. Discovery. Su programación se basa en programas relacionados con los vehículos y también sobre la ingeniería detrás de ellos y otras herramientas.</p>
+        <a href="https://television-libre.net/html/fl/?get=RGlzY292ZXJ5VHVyYm8=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/hyh.webp" title="Discovery HyH" alt="Discovery HyH en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery HyH</p>
+        <p class="description">Discovery Home & Health es un canal de televisión propiedad de Warner Bros. Discovery cuya programación se basa en producciones de salud, cocina, belleza y hogar dirigido al público femenino. El canal tiene señales localizadas para Latinoamérica, Australia, Irlanda, Hong Kong y el Sudeste Asiático.</p>
+        <a href="https://television-libre.net/html/fl/?get=RGlzY292ZXJ5SG9tZUhlYWx0aEhE" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/id.webp" title="Discovery ID" alt="Discovery ID en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery ID</p>
+        <p class="description">Investigation Discovery es un canal de televisión por suscripción, operado por Warner Bros. Discovery El canal ofrece programación con respecto a investigaciones criminales, principalmente las investigaciones de homicidios y otros documentales relacionados con delitos.</p>
+        <a href="https://television-libre.net/html/fl/?get=SUQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/lifetime.webp" title="Lifetime" alt="Lifetime en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Lifetime</p>
+        <p class="description">Lifetime es un canal de televisión por suscripción estadounidense, propiedad de A+E Networks. Presenta una programación que está dirigida a mujeres o presenta a mujeres en roles principales.</p>
+        <a href="https://television-libre.net/html/fl/?get=SUQ=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/history.webp" title="History" alt="History en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">History</p>
+        <p class="description">History es un canal de televisión por suscripción propiedad de A&E Networks. El canal, en sus primeros años, emitía documentales y series de ficción de género histórico-bélico como parte de su programación.</p>
+        <a href="/en-vivo/history/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/history2.webp" title="History 2" alt="History 2 en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">History 2</p>
+        <p class="description">History 2 es un canal de televisión por suscripción latinoamericano de origen estadounidense que emite documentales históricos con un enfoque internacional. Es el canal hermano de History.</p>
+        <a href="/en-vivo/history-2/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/aplanet.webp" title="Animal Planet" alt="Animal Planet en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Animal Planet</p>
+        <p class="description">Animal Planet es un canal de televisión de pago multinacional estadounidense propiedad de la unidad Warner Bros. Discovery Networks de Warner Bros. Discovery. Establecida por primera vez el 1 de junio de 1996, la red se dedica principalmente a series y documentales sobre animales salvajes y mascotas domésticas.</p>
+        <a href="/en-vivo/animal-planet/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/natgeo.webp" title="National Geographic (Natgeo)" alt="National Geographic en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">National Geographic</p>
+        <p class="description">National Geographic, abreviado como Nat Geo, es un canal de televisión por suscripción estadounidense lanzado por National Geographic Partners el 1 de septiembre de 1997. Su programación se basa en documentales de 45 min aproximadamente sobre exploración científica, historia, naturaleza y cultura, entre otros.</p>
+        <a href="/en-vivo/natgeo/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/lovenature.png" title="Love Nature" alt="Love Nature en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Love Nature</p>
+        <p class="description">Love Nature es un canal de televisión por suscripción, con sede en la ciudad de Toronto en Canadá. El canal transmite documentales y series de televisión, relacionados con la vida silvestre y la naturaleza.</p>
+        <a href="/en-vivo/love-nature/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/telemax.webp" title="Telemax (TLX HD)" alt="Telemax en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Telemax</p>
+        <p class="description">Telemax o TLX HD es un canal del sistema de cable TeleCentro de Argentina que transmite las 24 horas. Actualmente también se emite por el canal 26.03 de la Televisión Digital Abierta en Buenos Aires.</p>
+        <a href="/en-vivo/telemax/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/film.png" title="Film y Arts" alt="Film y Arts en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Film & Arts</p>
+        <p class="description">Film & Arts es un canal de televisión por suscripción latinoamericano de origen argentino dedicado al cine, la música, el teatro y otros espectáculos artísticos y culturales.</p>
+        <a href="/en-vivo/film-and-arts/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Documentales</span>
+        <img src="https://television-libre.net//img/sun.png" title="Sun Channel" alt="Sun Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Sun Channel</p>
+        <p class="description">Sun Channel, es un canal de televisión por suscripción latinoamericano de origen venezolano, que emite programación variada dedicada al turismo de toda América y de cualquier parte del mundo.</p>
+        <a href="/en-vivo/sun/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Gastronomía</span>
+        <img src="https://television-libre.net//img/food.webp" title="Food Network" alt="Food Network en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Food Network</p>
+        <p class="description">Food Network es un canal de televisión por suscripción internacional de origen estadounidense, propiedad de Discovery, Inc.</p>
+        <a href="/en-vivo/food-network/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Gastronomía</span>
+        <img src="https://television-libre.net//img/Group.svg" title="El Gourmet" alt="El Gourmet en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Gourmet</p>
+        <p class="description">El Gourmet es un canal de televisión por suscripción latinoamericano de origen argentino dedicado a la gastronomía.</p>
+        <a href="/en-vivo/gourmet/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/comedy.webp" title="Comedy Central" alt="Comedy Central en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Comedy Central</p>
+        <p class="description">Comedy Central es un canal de televisión por suscripción latinoamericano de origen estadounidense, enfocado en la emisión de series y películas de comedia para toda la familia, tanto de producción extranjera como local.</p>
+        <a href="/en-vivo/comedy-central/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/telemundo.png" title="Telemundo Internacional" alt="Telemundo Internacional en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Telemundo</p>
+        <p class="description">Telemundo Internacional es un canal de televisión por suscripción internacional de origen estadounidense, propiedad de NBCUniversal Internacional Networks y Comcast operado por NBCUniversal y Televisa.</p>
+        <a href="/en-vivo/telemundo-internacional/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/ae.webp" title="AE (A&E)" alt="AE en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">AE</p>
+        <p class="description">A&E es un canal de televisión por suscripción latinoamericano de origen estadounidense, variante regional del canal original. Su programación se centraba en la emisión de biografías, documentales, y series, pero más tarde se expandió para incluir también telerrealidad.</p>
+        <a href="/en-vivo/ae/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/cinecanal.webp" title="Cinecanal" alt="Cinecanal en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cinecanal</p>
+        <p class="description">Cinecanal es un canal de televisión por suscripción latinoamericano, inició sus transmisiones el 1 de abril de 1993. Es propiedad de The Walt Disney Company Latin America y operado por Disney Media Networks Latin America.</p>
+        <a href="/en-vivo/cinecanal/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tnt.webp" title="TNT HD" alt="TNT en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TNT</p>
+        <p class="description">TNT es un canal de televisión por suscripción latinoamericano de origen estadounidense, variante regional del canal original, que inició sus operaciones el 28 de enero de 1991 y está orientado a la emisión de películas de cualquier género. Es propiedad de Warner Bros. Discovery y es operado por Warner Bros.</p>
+        <a href="/en-vivo/tnt/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tntseries.webp" title="TNT Series" alt="TNT Series en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TNT Series</p>
+        <p class="description">TNT Series es un canal de televisión por suscripción latinoamericano de origen estadounidense, señal hermana de TNT en Latinoamérica, lanzado en 2015. Es propiedad de Warner Bros. Discovery y es operado por Warner Bros. Discovery Latin America. Su programación se basa en series de acción, suspenso, dramáticas, policiales y de ciencia ficción.</p>
+        <a href="/en-vivo/tnt-series/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tntnovelas.png" title="TNT Novelas (TBS)" alt="TNT Novelas en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TNT Novelas</p>
+        <p class="description">TNT Novelas (TBS) es un canal de televisión paga latinoamericano distribuido por Warner Bros. Discovery Americas El canal se lanzó el 26 de junio de 2023, reemplazando a TBS. Su programación se basa en telenovelas, en su mayoría, entre producciones de Turquía y algunas de América Latina.</p>
+        <a href="/en-vivo/tnt-novelas/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/fx.webp" title="FX HD" alt="FX HD en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">FX</p>
+        <p class="description">FX (acrónimo de Fox Extended) es un canal de televisión por suscripción latinoamericano de origen estadounidense orientado a jóvenes y adultos. Emite series de acción, drama, terror, comedia y películas de cualquier tipo de género. Es propiedad de The Walt Disney Company Latin America y es operado por Disney Media Networks Latin America.</p>
+        <a href="/en-vivo/fx/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/warner.webp" title="Warner Channel" alt="Warner Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Warner Channel</p>
+        <p class="description">Warner Channel (conocido como Warner y abreviado originalmente como WBTV) es un canal de televisión por suscripción latinoamericano de origen estadounidense operado por Warner Bros. Discovery Latin America, empresa filial perteneciente a Warner Bros. Discovery. Se unió al Consejo Latinoamericano de Publicidad en Multicanales (LAMAC) en 2004. Está centrado en emisión de series, comedia, películas y entretenimiento.</p>
+        <a href="/en-vivo/warner/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/cinemax.webp" title="Cinemax" alt="Cinemax en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cinemax</p>
+        <p class="description">Cinemax es un canal de televisión por suscripción estadounidense propiedad de Home Box Office Inc., una subsidiaria de Warner Bros. Discovery. Cinemax principalmente transmite películas, junto con series originales, documentales y funciones especiales detrás de cámaras.</p>
+        <a href="/en-vivo/cinemax/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/space.webp" title="Space" alt="Space en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Space</p>
+        <p class="description">Space es un canal de televisión por suscripción latinoamericano de origen argentino que emite, principalmente, series estadounidenses y películas de la década de 1980 y 1990, además del ciclo de boxeo Combate Space. Fue lanzado al aire el 11 de marzo de 1991. Desde 2007, solo emite programación dedicada al género de acción y deja de lado otros ámbitos como el cine argentino debido a su internacionalización. En 2009, se lanza una señal en simultáneo en HD y, desde 2011, incluye la opción de una segunda pista de audio en inglés.</p>
+        <a href="/en-vivo/space/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/star.webp" title="Star Channel" alt="Star Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Star Channel</p>
+        <p class="description">Star Channel es un canal de televisión por suscripción que ofrece una amplia variedad de series, películas y programas de entretenimiento.</p>
+        <a href="/en-vivo/star-channel/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/studio.webp" title="Studio Universal" alt="Studio Universal en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Studio Universal</p>
+        <p class="description">Studio Universal es un canal de televisión por suscripción dedicado a la transmisión de películas clásicas y contemporáneas.</p>
+        <a href="/en-vivo/studio-universal/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/sony.webp" title="Sony Channel" alt="Sony Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Sony Channel</p>
+        <p class="description">Sony Channel es un canal de televisión por suscripción que ofrece una programación diversa que incluye series, películas y shows de entretenimiento.</p>
+        <a href="/en-vivo/sony-channel/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/paramount.webp" title="Paramount Network" alt="Paramount Network en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Paramount Network</p>
+        <p class="description">Paramount Network es un canal de televisión por suscripción que se especializa en la transmisión de películas y series populares.</p>
+        <a href="/en-vivo/paramount-network/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/amc.webp" title="AMC" alt="AMC en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">AMC</p>
+        <p class="description">AMC es un canal de televisión por suscripción conocido por su programación de películas de calidad y series originales aclamadas por la crítica.</p>
+        <a href="/en-vivo/amc/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/axn.webp" title="AXN" alt="AXN en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">AXN </p>
+        <p class="description">AXN es un canal de televisión por suscripción latinoamericano de origen estadounidense, propiedad de Sony Pictures Entertainment y distribuido actualmente para la región por Ole Distribution, una empresa formada entre Ole Communications y Warner Bros. Discovery.</p>
+        <a href="/en-vivo/axn/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tcm.webp" title="TCM " alt="TCM en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TCM  </p>
+        <p class="description">TCM es un canal de televisión por suscripción latinoamericano de origen estadounidense. Es propiedad de Warner Bros. Discovery y es operado por Warner Bros. Discovery Latin America, bajo la marca internacional Turner Classic Movies. Su programación está dirigida a un público de 40 años en adelante.</p>
+        <a href="/en-vivo/tcm/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+<img src="https://television-libre.net//img/e.webp" title="E! Entertainment " alt="E! Entertainment en VIVO online" style="
+    height: 120px;
+    margin-top: 30%;
+">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">E! Entertainment  </p>
+        <p class="description">E! Entertainment Television es una cadena de televisión por suscripción estadounidense, la cual se dedica a informar sobre la farándula y celebridades de Hollywood, televisión y de la música. Desde 2018 emite, organiza y entrega los Premios People's Choice</p>
+        <a href="/en-vivo/e/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/a3cine.png" title="A3CINE y A3SERIES" alt="A3CINE y A3SERIES en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">A3CINE & A3SERIES </p>
+        <p class="description">Atrescine (A3Cine) es un canal de televisión por suscripción latinoamericano de origen español. Fue lanzado al aire el 2 de marzo de 2018 y su programación consiste en la emisión de películas de producción española.</p>
+        <a href="/en-vivo/a3cine/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/cinear.png" title="Cine AR" alt="Cine AR en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cine AR</p>
+        <p class="description">CINE.AR es un canal de televisión abierta argentino dedicado a la emisión de películas de producción nacional. Es propiedad del Instituto Nacional de Cine y Artes Audiovisuales y de la Secretaría de Medios y Comunicación Pública, operado por Contenidos Públicos S.E.</p>
+        <a href="/en-vivo/cinear/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbo.webp" title="HBO" alt="HBO  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO </p>
+        <p class="description">HBO (siglas de Home Box Office; en inglés, «taquilla en casa») es una cadena de televisión por suscripción estadounidense, propiedad de Warner Bros. Discovery a través de su división Warner Bros. Entertainment. Es operada por Home Box Office, Inc., subsidiaria con sede en Nueva York. Su programación está basada en el estreno de películas ya exhibidas en cine y en películas y series de producción propia, entre las que destacan Los Soprano, The Wire, Six Feet Under, Band of Brothers, The Pacific, Sex and the City, True Blood, Curb your enthusiasm, Game of Thrones y Succession.</p>
+        <a href="/en-vivo/hbo/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbo2.webp" title="HBO 2" alt="HBO 2  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO 2 </p>
+        <p class="description">HBO 2 (estilizado como HBO2) es un canal de televisión por suscripción premium latinoamericano de origen estadounidense propiedad de Warner Bros. Discovery Latin America, filial de HBO (subsidiaria de Warner Bros. Discovery). Inició sus emisiones en 1990 en Estados Unidos como parte del nuevo servicio multiplex de HBO hasta 1998, donde fue relanzado como HBO Plus. En 2002, vuelve a relanzarse como HBO 2.</p>
+        <a href="/en-vivo/hbo-2/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hboplus.webp" title="HBO Plus" alt="HBO Plus en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Plus</p>
+        <p class="description">HBO+ es un canal de televisión por suscripción prémium latinoamericano de origen estadounidense. Es propiedad de Warner Bros. Discovery Latin America, filial de HBO e inició sus transmisiones el 31 de octubre de 1996 bajo el nombre de HBO Olé 2.</p>
+        <a href="/en-vivo/hbo-plus/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbofam.webp" title="HBO Family " alt="HBO Family  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Family </p>
+        <p class="description">HBO Family es un canal de televisión por suscripción prémium latinoamericano de origen estadounidense, propiedad de Warner Bros. Discovery. Transmite contenido apto para toda la familia.</p>
+        <a href="/en-vivo/hbo-family/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hboxtreme.webp" title="HBO Xtreme" alt="HBO Xtreme en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Xtreme</p>
+        <p class="description">HBO Xtreme (anteriormente conocido como Max Prime) es un canal de televisión por suscripción premium latinoamericano que forma parte del paquete de canales HBO. HBO Xtreme emite películas del género acción, terror y suspenso, producidas por las empresas cinematográficas asociadas a la cadena HBO, como Columbia Pictures, Warner Bros. Entertainment, Sony Pictures Entertainment, New Line Cinema, Universal Pictures (excepto Brasil), y demás empresas independientes.</p>
+        <a href="/en-vivo/hbo-xtreme/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbomundi.webp" title="HBO Mundi" alt="HBO Mundi en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Mundi</p>
+        <p class="description">HBO Mundi (anteriormente conocido como Max) es un canal de televisión por suscripción premium latinoamericano perteneciente al paquete de canales de HBO. La programación de HBO Mundi se basa en la emisión de cine independiente, cine internacional, películas de tipo experimental, series internacionales y documentales de culto.</p>
+        <a href="/en-vivo/hbo-mundi/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbopop.webp" title="HBO Pop " alt="HBO Pop  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Pop </p>
+        <p class="description">HBO Pop (anteriormente conocido como Max HD y posteriormente Max Up) es un canal de televisión por suscripción premium latinoamericano que forma parte del paquete de canales HBO. HBO Pop emite películas taquilleras del género comedia, romance, drama, aventura y animación, principalmente las producidas por empresas cinematográficas asociadas a la cadena HBO, como Columbia Pictures, Sony Pictures Entertainment, New Line Cinema, Warner Bros. Entertainment, Universal Pictures (excepto Brasil), DreamWorks Animation (excepto Brasil), etc.</p>
+        <a href="/en-vivo/hbo-pop/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/hbosig.webp" title="HBO Signature  " alt="HBO Signature   en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HBO Signature  </p>
+        <p class="description">HBO Signature es un canal de televisión por suscripción premium latinoamericano de origen estadounidense, propiedad de Warner Bros. Discovery Latin America, filial de HBO. La programación de HBO Signature se basa en la emisión de contenido original producido por HBO, entre ellos series, películas y documentales producidos por el mismo grupo, incluyendo Los Soprano, Six Feet Under y Entourage. También emite documentales de elaboración propia de la cadena HBO.</p>
+        <a href="/en-vivo/hbo-sig/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/universalcinema.webp" title="Universal Cinema" alt="Universal Cinema  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universal Cinema</p>
+        <p class="description">Universal+ (pronunciado como Universal Plus), es un grupo de canales de televisión por suscripción premium latinoamericano de origen estadounidense, que se centra en la emisión de películas y series de carácter exclusivo que no son vistas en otros canales. Universal Cinema: está centrado en la emisión de películas de estreno, galardonadas, destacadas y mejor aclamadas. Posee 2 señales, Este y Oeste.</p>
+        <a href="/en-vivo/universal-cinema/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/universalcrime.webp" title="Universal Crime " alt="Universal Crime   en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universal Crime </p>
+        <p class="description">Universal+ (pronunciado como Universal Plus), es un grupo de canales de televisión por suscripción premium latinoamericano de origen estadounidense, que se centra en la emisión de películas y series de carácter exclusivo que no son vistas en otros canales. Universal Crime: está centrado en la emisión de series de acción, investigación y alto impacto criminal.</p>
+        <a href="/en-vivo/universal-crime/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/universalcomedy.webp" title="Universal Comedy" alt="Universal Comedy en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universal Comedy</p>
+        <p class="description">Universal+ (pronunciado como Universal Plus), es un grupo de canales de televisión por suscripción premium latinoamericano de origen estadounidense, que se centra en la emisión de películas y series de carácter exclusivo que no son vistas en otros canales. Universal Comedy: está centrado a la emisión de cine y series de comedia.</p>
+        <a href="/en-vivo/universal-comedy/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/universalreality.webp" title="Universal Reality" alt="Universal Reality en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universal Reality</p>
+        <p class="description">Universal+ (pronunciado como Universal Plus), es un grupo de canales de televisión por suscripción premium latinoamericano de origen estadounidense, que se centra en la emisión de películas y series de carácter exclusivo que no son vistas en otros canales. Universal Reality: está centrado en la emisión de entretenimiento, game show y reality shows no guionados, la cual tiene contenido de E!.</p>
+        <a href="/en-vivo/universal-reality/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/universalpremiere.webp" title="Universal Premiere" alt="Universal Premiere en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universal Premiere</p>
+        <p class="description">Universal+ (pronunciado como Universal Plus), es un grupo de canales de televisión por suscripción premium latinoamericano de origen estadounidense, que se centra en la emisión de películas y series de carácter exclusivo que no son vistas en otros canales. Universal Premiere: está centrado en la emisión de series de estreno, nuevas temporadas y series aclamadas. Posee 2 señales, Este y Oeste.</p>
+        <a href="/en-vivo/universal-premiere/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div style="display:none" class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/golden.png" title="Golden Plus" alt="Golden Plus (Golden +) en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Golden Plus</p>
+        <p class="description">Golden es un canal de televisión por suscripción latinoamericano de origen mexicano operado por Televisa Networks, subsidiaria de TelevisaUnivision. Tiene cobertura en toda América Latina. Golden Plus: La señal en alta definición del canal Golden, con programación distinta a la señal principal.</p>
+        <a href="/en-vivo/golden-plus/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/pasiones.webp" title="Pasiones" alt="Pasiones en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Pasiones</p>
+        <p class="description">Pasiones es un canal de televisión por suscripción latinoamericano de origen estadounidense propiedad de Hemisphere Media Group, que transmite por medio de diferentes operadores de televisión por suscripción a gran parte de América solamente telenovelas y series de televisión de diversos géneros las 24 horas del día.</p>
+        <a href="/en-vivo/pasiones/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/estrellas.png" title="Las Estrellas" alt="Las Estrellas en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Las Estrellas</p>
+        <p class="description">Las Estrellas es una cadena de televisión mexicana propiedad de Grupo Televisa. Su primera emisión oficial fue el 21 de marzo de 1951. Transmite en señal abierta en todo el territorio mexicano a través de una red de 129 estaciones retransmisoras propias, 2 estaciones afiliadas y 1 retransmisora por multiprogramación.</p>
+        <a href="/en-vivo/estrellas/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tlnovelas.png" title="Tlnovelas" alt="Tlnovelas en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Tlnovelas</p>
+        <p class="description">Tlnovelas es un canal de televisión por suscripción internacional de origen mexicano enfocado en telenovelas. El canal posee tres señales, las cuales se distribuyen en Latinoamérica, Europa y los Estados Unidos respectivamente; esta última señal se encuentra disponible bajo el nombre de Univision Tlnovelas.</p>
+        <a href="/en-vivo/tlnovelas/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div style="display:none" class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/dhe.png" title="DHE" alt="DHE En VIVO Online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">DHE</p>
+        <p class="description">DHE es un canal de televisión por suscripción latinoamericano que transmite películas y series. Pertenece a la empresa DHE Group con sede en Filadelfia, Estados Unidos, pero su casa productora y filial comercial se encuentra en Bogotá.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jYW5hbC8/aWQ9REhF" class="view-button">Ver canal</a>
+    </div>
+</div>   
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Entretenimiento</span>
+            <img src="https://television-libre.net/img/eurochannel.png" title="Eurochannel" alt="Eurochannel en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Eurochannel</p>
+            <p class="description">Eurochannel es un canal de televisión por suscripción de origen brasileño que emite contenido de producción europea. La programación del canal consiste en películas, series, documentales y música dentro de diferentes bloques temáticos.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjJOb1lXNXVaV3c9" class="view-button">Ver canal</a>
+        </div>
+    </div>   
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Entretenimiento</span>
+            <img src="https://television-libre.net/img/eueu.png" title="Europa Europa" alt="Europa Europa en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Europa Europa</p>
+            <p class="description">Europa Europa es un canal de televisión por suscripción americano de origen argentino, dedicado exclusivamente al cine y series de televisión de producción europea. El canal es actualmente propiedad de AMC Networks International y operado por la misma empresa.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjNCaFgwVjFjbTl3WVE=" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Entretenimiento</span>
+            <img src="https://television-libre.net/img/garagetv.webp" title="El Garage TV" alt="El Garage TV en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">El Garage TV</p>
+            <p class="description">El Garage TV es un canal de televisión por suscripción dedicado las 24 horas a programas relacionados con el automóvil, así como su historia, fabricantes legendarios, diferentes disciplinas deportivas</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SV3hmUjJGeVlXZGw=" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+
+
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Entretenimiento</span>
+            <img src="https://television-libre.net/img/holatv.jpg" title="¡Hola! TV" alt="¡Hola! TV en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">¡Hola! TV</p>
+            <p class="description">¡Hola! TV es un canal de televisión por suscripción americano de origen español, el cual está dirigido al público femenino. Fue lanzado en 2013 y está basada en la revista ¡Hola!. Su programación consiste en programas orientados a las celebridades y el estilo de vida.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1TRzlzWVY5VVZnPT0=" class="view-button">Ver canal</a>
+        </div>
+    </div> 
+    
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Entretenimiento</span>
+            <img src="https://television-libre.net/img/maschic.png" title="Más Chic" alt="Más Chic en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Más Chic</p>
+            <p class="description">El canal Más Chic está dirigido a mujeres, amas de casa y personas que se profesionalizan en las decoraciones, la cocina e incluso el arte en el hogar. Surge como resultado del cambio de nombre de la señal anterior, Casa Club TV y Canal Ella, nombre que recibía en Estados Unidos y Puerto Rico.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1UV0Z6WDBOb2FXTT0=" class="view-button">Ver canal</a>
+        </div>
+    </div>
+    
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/tv5monde.png" title="TV5MONDE América Latina" alt="TV5MONDE América Latina en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">TV5MONDE América Latina</p>
+        <p class="description">TV5Monde (pronunciación en francés: /te ve sɛ̃k mɔ̃d/) es una cadena internacional de televisión que ofrece programación en lengua francesa. Sus estudios parisienses estaban inicialmente en el número 15 de la calle Cognacq-Jay, en los locales históricos de France Télévisions y de TF1 antes de su privatización. </p>
+        <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlkxWDAxdmJtUmw=" class="view-button">Ver canal</a>
+    </div>
+</div>    
+
+
+    
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Europa</span>
+            <img src="https://television-libre.net/img/euronews.png" title="Euronews" alt="Euronews en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Euronews</p>
+            <p class="description">Euronews es un canal de televisión temático dedicado a la información. Originalmente fue propiedad conjunta de varias organizaciones de radiodifusión estatales europeas y del norte de África. Desde diciembre de 2021 es propiedad mayoritaria de Alpac Capital, una empresa portuguesa.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFZ5YjI1bGQzTT0=" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+    
+    
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">España</span>
+            <img src="https://television-libre.net/img/tvees.png" title="TVE España" alt="TVE España en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">TVE</p>
+            <p class="description">La Corporación de Radio y Televisión Española, Sociedad Anónima, S. M. E., conocida simplemente como Radiotelevisión Española o por su acrónimo RTVE, es una sociedad mercantil estatal que organiza la gestión indirecta del servicio público de radio y televisión de España.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1WRlpmUlhOd1lXNWg=" class="view-button">Ver canal</a>
+        </div>
+    </div>   
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net//img/antena3.webp" title="Antena 3" alt="Antena 3 en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Antena 3</p>
+        <p class="description">Antena 3 es un canal de televisión digital terrestre español operado por Atresmedia Televisión, propiedad de Atresmedia Corporación, junto a otras empresas como Atresmedia Radio, Movierecord o Unipublic.</p>
+        <a href="/en-vivo/antena3/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/la1.png" title="La 1 España" alt="La 1 España en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">La 1</p>
+        <p class="description">La 1 es el primer canal de Televisión Española (TVE), perteneciente a la corporación pública Radiotelevisión Española (RTVE). Cuenta con una programación generalista para todos los públicos, centrada en la información y el entretenimiento, que incluye programas informativos, series de ficción, concursos o cine, entre otros.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUxBMQ==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/la2.png" title="La 2 España" alt="La 2 España en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">La 2</p>
+        <p class="description">La 2 es un canal de televisión español de señal abierta. Se trata del segundo canal más antiguo del grupo Televisión Española, perteneciente a la corporación pública RTVE. Su programación se basa en espacios culturales, de servicio público y con una vocación minoritaria respecto a La 1, su canal hermano. Parte de la realización y producción de los programas se realiza en San Cugat del Vallés</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUxBMg==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/cuatro.png" title="Cuatro España" alt="Cuatro España en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cuatro</p>
+        <p class="description">Cuatro es un canal de televisión español en abierto operado por Mediaset España,grupo filial de la compañía italiana MFE-MediaForEurope, que cuenta con una programación generalista dedicada a un público adulto.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUNVQVRSTw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/telecinco.png" title="TeleCinco España" alt="TeleCinco España en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Telecinco</p>
+        <p class="description">Telecinco, conocido en sus orígenes como Tele 5 (T5), es un canal de televisión español en abierto de carácter privado, operado por Mediaset España. Desde 2004 a 2008 fue líder de audiencia en España.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPVRFTEVDSU5DTw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/lasexta.png" title="La Sexta España" alt="La Sexta España en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">La Sexta</p>
+        <p class="description">La Sexta (estilizado como laSexta) es un canal de televisión español en abierto, propiedad de Atresmedia. Su programación es generalista, aunque con especial presencia de programas de humor y entretenimiento, y programas de análisis de actualidad.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUxBU0VYVEE=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/fdf.png" title="Factoría de Ficción (FDF)" alt="Factoría de Ficción (FDF)  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">FDF</p>
+        <p class="description">Factoría de Ficción (FDF) es un canal de televisión en abierto español operado por Mediaset España. Sus emisiones regulares comenzaron el 18 de febrero de 2008 bajo el nombre de FDF Telecinco.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUZERg==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/amcbk.png" title="AMC Break" alt="AMC Break en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">AMC Break</p>
+        <p class="description">AMC Break (previamente conocido como Blaze) es un canal de televisión por suscripción español de origen británico, operado por AMC Networks International Southern Europe, propiedad de AMC Networks. El canal ofrece contenidos basados en el entretenimiento de no-ficción y en contar historias sobre personajes insólitos.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUFNQ19CUkVBSw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/dark.png" title="Dark" alt="Dark en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Dark</p>
+        <p class="description">Dark es un canal de televisión por suscripción español que emite películas de terror y suspenso. El canal fue lanzado al aire originalmente el 1 de noviembre de 2006 y cerró el 1 de julio de 2009, siendo reemplazado por Buzz.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPURBUks=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/dkiss.png" title="DKISS" alt="DKISS en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">DKISS</p>
+        <p class="description">DKISS es un canal de televisión en abierto español propiedad del Grupo KISS Media, con una programación de corte generalista para un público joven-adulto.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPURfS0lTUw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/odisea.png" title="Odisea" alt="Odisea en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Odisea</p>
+        <p class="description">Odisea (en Portugal, Odisseia) es un canal de televisión de televisión por suscripción español operado por AMC Networks International Southern Europe. El canal emite programación dedicada a la cultura, ciencia y tecnología, incluyendo producciones nacionales e internacionales y producción propia.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPU9ESVNFQQ==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/b-mad.png" title="Be Mad" alt="Be Mad en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Be Mad</p>
+        <p class="description">Be Mad es un canal español de televisión en abierto, operado por Mediaset España y fundado el 21 de abril de 2016. Su programación trata principalmente sobre cine.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPUJfTUFE" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">España</span>
+        <img src="https://television-libre.net/img/mega.png" title="MEGA" alt="MEGA en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MEGA</p>
+        <p class="description">Mega es un canal de televisión digital terrestre español, perteneciente a Atresmedia. Sus emisiones regulares comenzaron el 1 de julio de 2015.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jbGFwcHIvP2lkPU1FR0E=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Estados Unidos</span>
+        <img src="https://television-libre.net/img/universo.png" title="Universo" alt="Universo en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Universo </p>
+        <p class="description">Universo (anteriormente conocida como GEMS, mun2 y NBC Universo) es un canal de televisión por suscripción estadounidense, que emite en inglés y español para la comunidad hispana del país. Es propiedad de NBCUniversal Telemundo Enterprises, una subisidiaria de NBCUniversal, la cual a su vez es una filial de Comcast. La cadena sirve como canal de cable complementario de la cadena de televisión abierta insignia de NBCUniversal, NBC, y, en cierta medida, de su cadena hermana en español Telemundo.</p>
+        <a href="/en-vivo/universo/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Estados Unidos</span>
+        <img src="https://television-libre.net/img/univision.png" title="Univisíon " alt="Univisíon  en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Univisíon </p>
+        <p class="description">Univision es una cadena de televisión estadounidense en español, propiedad de TelevisaUnivision y operada por la filial Univision Communications.</p>
+        <a href="/en-vivo/univision/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Internacional</span>
+        <img src="https://television-libre.net//img/azuno.png" title="Azteca Uno" alt="Azteca Uno en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Azteca Uno</p>
+        <p class="description">Azteca Uno es una cadena de televisión comercial de México, perteneciente a la empresa privada Televisión Azteca. Su programación, de corte generalista, está constituida principalmente por reality shows, noticieros, programas de variedad, concursos, películas y series.</p>
+        <a href="/eventos/sin-chat/?r=L2h0bWwvaGxzLmh0bWw/Z2V0PWFIUjBjSE02THk5aGVuUXRiMjh1YjNSMFpYSmhkbWx6YVc5dUxtTnZiUzl2ZFhRdmRqRXZaR0UxTTJRM1pETTRPR0psTkRNM1pUa3lZbVk0WmpRMk5EQXhPR1ZpTkRndmFXNWtaWGd1YlROMU9BPT0=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Internacional</span>
+        <img src="https://television-libre.net//img/azcorazon.png" title="Azteca Corazón" alt="Azteca Corazón en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Azteca Corazón</p>
+        <p class="description">Corazón es un canal de televisión por suscripción internacional de origen mexicano cuya programación consiste en la transmisión de telenovelas que anteriormente fueron emitidas por Azteca Uno y Azteca 7 en México. Es un canal operado por TV Azteca Internacional TV de Paga y propiedad de TV Azteca.</p>
+        <a href="/eventos/sin-chat/?r=L2h0bWwvaGxzLmh0bWw/Z2V0PWFIUjBjSE02THk5emRISmxZVzB1WVdSekxtOTBkR1Z5WVM1MGRpOXdiR0Y1YkdsemRDNXRNM1U0UDI1bGRIZHZjbXRmYVdROU5EZ3pNQT09" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Internacional</span>
+        <img src="https://television-libre.net//img/azclic.png" title="Azteca Clic" alt="Azteca Clic en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Azteca Clic</p>
+        <p class="description">Clic es un canal de televisión por suscripción latinoamericano de origen mexicano. Su programación está compuesta de entretenimiento y estilo de vida.</p>
+        <a href="/eventos/sin-chat/?r=L2h0bWwvaGxzLmh0bWw/Z2V0PWFIUjBjSE02THk5emRISmxZVzB1WVdSekxtOTBkR1Z5WVM1MGRpOXdiR0Y1YkdsemRDNXRNM1U0UDI1bGRIZHZjbXRmYVdROU5EZ3lOdz09" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Entretenimiento</span>
+        <img src="https://television-libre.net//img/adults.png" title="Adult Swim" alt="Adult Swim en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Adult Swim</p>
+        <p class="description">Adult Swim (estilizado como «[adult swim]», abreviado también como «[as]»). es un bloque de programación nocturna de origen estadounidense, orientado para adolescentes y adultos y emitido por diversas cadenas de Warner Bros. Discovery dependiendo del país. En Estados Unidos, es un segmento filial emitido al interior de Cartoon Network.</p>
+        <a href="/en-vivo/adult-swim/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/cn.webp" title="Cartoon Network" alt="Cartoon Network en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cartoon Network</p>
+        <p class="description">Cartoon Network es un canal de televisión por suscripción estadounidense infantil centrado en series de animación para niños y adolescentes. Fue lanzado el 1 de octubre de 1992 por Betty Cohen y es propiedad de The Cartoon Network Inc, subsidiaria de Warner Bros. Discovery Networks, una división de Warner Bros</p>
+        <a href="/en-vivo/cartoon-network/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/cart.webp" title="Cartoonito" alt="Cartoonito en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Cartoonito</p>
+        <p class="description">Cartoonito es un canal de televisión por suscripción británico, de programación infantil, que emite en Reino Unido. Es propiedad de Warner Bros. Discovery EMEA, también propietaria de Cartoon Network y Boomerang y opera bajo la marca internacional Cartoonito en otros países europeos.</p>
+        <a href="/en-vivo/cartoonito/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/disney.webp" title="Disney Channel" alt="Disney Channel en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Disney Channel</p>
+        <p class="description">Disney Channel es un canal de televisión por suscripción latinoamericano de origen estadounidense de programación infantil. Se lanzó el 27 de julio de 2000 como una señal prémium; sin embargo, debido a la estrategia de expandir el canal, empezó a ser distribuido como un canal del paquete básico cuatro años después.</p>
+        <a href="/en-vivo/disney-channel/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/disneyjr.webp" title="Disney Junior" alt="Disney Junior en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Disney Junior</p>
+        <p class="description">Disney Junior es un canal de televisión por suscripción estadounidense propiedad de The Walt Disney Company, división de Walt Disney Television, a su vez una rama de Disney Media Networks.</p>
+        <a href="/en-vivo/disney-jr/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/diskids.webp" title="Discovery Kids" alt="Discovery Kids en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Discovery Kids</p>
+        <p class="description">Discovery Kids es un canal de televisión por suscripción de origen estadounidense enfocado a la audiencia infantil. Lanzado originalmente el 7 de octubre de 1996 en Estados Unidos, es propiedad de Warner Bros. Discovery y concluyó emisiones el 10 de octubre de 2010 al ser reemplazado por The Hub.</p>
+        <a href="/en-vivo/discovery-kids/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/nick.png" title="Nickelodeon" alt="Nickelodeon en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Nickelodeon</p>
+        <p class="description">Nickelodeon es un canal de televisión por suscripción latinoamericano de origen estadounidense, orientado a niños y adolescentes. Es propiedad de Paramount Global, a través de Paramount Networks Americas. Su programación se basa en comedias juveniles, series animadas y shows para la audiencia infantil.</p>
+        <a href="/en-vivo/nick/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/nickjr.webp" title="Nick Jr." alt="Nick Jr. en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Nick Jr.</p>
+        <p class="description">Nick Jr. es una marca de Nickelodeon destinada al público preescolar que se emite en el canal del mismo nombre alrededor del mundo teniendo en algunas regiones como Estados Unidos, Reino Unido, Australia y Latinoamérica un canal de emisión propia.</p>
+        <a href="/en-vivo/nickjr/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/dream.png" title="DreamWorks" alt="DreamWorks en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">DreamWorks</p>
+        <p class="description">DreamWorks Channel (comúnmente abreviado como DreamWorks) es un canal de televisión por suscripción que pertenece y es operada por NBCUniversal, una división de Comcast. Se lanzó por primera vez en el sudeste asiático. La programación de DreamWorks Animation, tanto en formato nuevo como de archivo, conforma los horarios de máxima audiencia y los primeros días de la nueva red hermana Universal Kids, que se lanzó en los Estados Unidos el 9 de septiembre de 2017 (una evolución de formato de una versión anterior del canal llamado "Sprout"). Los derechos de la programación de DreamWorks Animation en los Estados Unidos también están a cargo de Netflix y otras cadenas.</p>
+        <a href="/en-vivo/dreamworks/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Infantiles</span>
+        <img src="https://television-libre.net//img/pakapaka.png" title="Pakapaka" alt="Pakapaka en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Pakapaka</p>
+        <p class="description">Pakapaka es un canal de televisión abierta argentino enfocado a la audiencia preescolar, infantil y juvenil. Lanzado originalmente el 17 de septiembre de 2010, es propiedad de Contenidos Públicos S.A. y operado por la Secretaría de Medios y Comunicación Pública.</p>
+        <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1VRUZMUVY5UVFVdEI=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/quiero.webp" title="Quiero Música en mi idioma" alt="Quiero Música en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Quiero Música</p>
+        <p class="description">Quiero música en mi idioma es un canal de televisión por suscripción argentino dedicada a la música en español. Es operado por Artear, una división de Grupo Clarín.</p>
+        <a href="/en-vivo/quiero/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/mtv.webp" title="MTV" alt="MTV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV</p>
+        <p class="description">MTV es un canal de televisión por suscripción estadounidense, originalmente establecida en 1981 por Warner-Amex Satellite Entertainment, propiedad de Viacom desde 1985.</p>
+        <a href="/en-vivo/mtv/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/mtvhts.webp" title="MTV Hits" alt="MTV Hits en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV Hits</p>
+        <p class="description">MTV Hits fue un canal de televisión por suscripción latinoamericano de origen estadounidense operado por Paramount Global. Su programación consiste en la emisión de videos musicales.</p>
+        <a href="/en-vivo/mtvhts/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/mtv00s.png" title="MTV 00s" alt="MTV 00s en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV 00s</p>
+        <p class="description">MTV 00s es un canal de televisión por suscripción que presenta videos musicales de la década de los 2000. Se emitió en modo de prueba del 29 de mayo al 22 de junio de 2020 en el Reino Unido, como un cambio de marca temporal de MTV OMG. Fue lanzado el 2 de agosto de 2021 en reemplazo de VH1 Europe.</p>
+        <a href="/en-vivo/mtv00s/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div style="display:none" class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net/img/mtvlive.png" title="MTV Live" alt="MTV Live en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV Live</p>
+        <p class="description">MTV Live es la versión internacional del canal de televisión estadounidense MTV Live como red de televisión de pago con música en vivo de alta definición las 24 horas, propiedad de Paramount Networks EMEAA, filial de Paramount International Networks.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jYW5hbC8/aWQ9TVRWX0xJVkU=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net/img/mtv0s.png" title="MTV 80s" alt="MTV 80s en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV 80s</p>
+        <p class="description">MTV 80s es un canal de televisión por suscripción de carácter mundial, operado por Paramount International Networks que presenta videos musicales de la década de 1980.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jYW5hbC8/aWQ9TVRWXzgwUw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net/img/mtv90s.png" title="MTV 90s" alt="MTV 90s en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">MTV 90s</p>
+        <p class="description">MTV 90s es un canal de televisión por suscripción operado por Paramount Networks EMEAA que presenta videos musicales de la década de 1990. Reemplazó a MTV Rocks el 5 de octubre de 2020 a las 5:00 PM CET. El canal está disponible en Europa, Oriente Medio, África del Norte y Sudeste Asiático.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jYW5hbC8/aWQ9TVRWXzkwUw==" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net/img/clubmtv.png" title="Club MTV" alt="Club MTV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Club MTV</p>
+        <p class="description">Club MTV, anteriormente MTV Dance, es un canal de televisión por suscripción europeo, propiedad de Paramount Global. Su programación está basada en vídeos musicales de electrónica, house y trance.</p>
+        <a href="/eventos/sin-chat/?r=aHR0cHM6Ly9uZWJ1bmV4YS5jby9jYW5hbC8/aWQ9Q0xVQl9NVFY=" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/htv.webp" title="HTV" alt="HTV en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">HTV</p>
+        <p class="description">HTV es un canal de televisión por suscripción latinoamericano que ofrece programación musical con entrevistas, eventos y ritmos locales.</p>
+        <a href="/en-vivo/htv/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/cm.webp" title="CM" alt="CM (Canal de la Música) en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">CM (Canal de la Música)</p>
+        <p class="description">El Canal de la Música es un canal de televisión por cable musical argentino operado por Grupo Olmos. Fue fundado por el empresario Héctor Ricardo García.</p>
+        <a href="/en-vivo/cm/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+<div class="card">
+    <div class="image-container">
+        <span class="inf">Música</span>
+        <img src="https://television-libre.net//img/flowmusic.webp" title="Flow Music" alt="Flow Music en VIVO online">
+    </div>
+    <div class="card-content">
+        <p class="channel-name">Flow Music</p>
+        <p class="description">Flow Music es una serie de cuatro canales exclusivos de Flow (ex Cablevisión), dedicada a la música con conciertos, transmisiones en vivo y contenido musical especializado.</p>
+        <a href="/en-vivo/flow-music/" class="view-button">Ver canal</a>
+    </div>
+</div>
+
+                   <div class="card">
+        <div class="image-container">
+            <span class="inf">Uruguay</span>
+            <img src="https://television-libre.net/img/eventos.png" title="Flow Eventos 1 Uruguay" alt="Flow Eventos 1 Uruguay en VIVO online">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Flow Eventos 1 UY</p>
+            <p class="description">Flow Eventos 1 es un canal de televisión en Uruguay que forma parte de la plataforma de streaming y televisión por suscripción de Flow. Este canal se especializa en transmitir eventos en vivo, como conciertos, festivales, deportes y otros espectáculos culturales y artísticos.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOUlSRjlWZVE9PQ==" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+                      <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/eventos.png" title="TyC Sports 2 (Flow Eventos)" alt="TyC Sports 2 (Flow Eventos)">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">TyC Sports 2 (Flow Eventos)</p>
+                <p class="description">Flow Eventos 1 es un canal de televisión en Argentina que forma parte de la plataforma de streaming y televisión por suscripción de Flow. Este canal se especializa en transmitir eventos especiales en vivo.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmN6RklSQQ==" class="view-button">Ver canal</a>
+        </div>
+    </div>  
+    
+                    <div class="card">
+        <div class="image-container">
+            <span class="inf">Argentina</span>
+            <img src="https://television-libre.net/img/eventos.png" title="Flow Eventos 2" alt="Flow Eventos 2">
+        </div>
+        <div class="card-content">
+            <p class="channel-name">Flow Eventos 2</p>
+                <p class="description">Flow Eventos 2 es un canal de televisión en Argentina que forma parte de la plataforma de streaming y televisión por suscripción de Flow. Este canal se especializa en transmitir eventos especiales en vivo.</p>
+            <a href="/eventos/sin-chat/?r=L2h0bWwvZmwvP2dldD1SWFpsYm5SdmMxOHlYMGhF" class="view-button">Ver canal</a>
+        </div>
+    </div>     
+
+</main>
+<footer class="mt-4 bg-slate-200 text-zinc-600 py-4 dark:bg-slate-700">
+<div class="container mx-auto px-4 text-center">
+<p class="text-gray-800 dark:text-slate-300">LIVETV © 2025</p>
+<a href="/dmca.html" rel="nofollow"> DMCA</a>
+</div>
+</footer>
+<script>
+$(document).ready(function() {
+    $('#buscar').on('input', function() {
+        var value = $(this).val().toLowerCase();
+        
+        $('.card').each(function() {
+            var imageTitle = $(this).find('img').attr('title').toLowerCase();
+            var tagText = $(this).find('.inf').text().toLowerCase();
+            var cardVisible = imageTitle.indexOf(value) > -1 || tagText.indexOf(value) > -1;
+            
+            if (cardVisible) {
+                $(this).removeClass('d-none'); 
+            } else {
+                $(this).addClass('d-none'); 
+            }
+        });
+    });
+});
+
+</body>
+</html>
